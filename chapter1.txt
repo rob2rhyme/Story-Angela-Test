@@ -1,1 +1,1 @@
-Some texts for testing to learn git and GitHub.
+Some texts for testing to learn git and GitHub. making some changes
