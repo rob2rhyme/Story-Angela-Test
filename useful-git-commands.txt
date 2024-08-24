@@ -1,51 +1,51 @@
-See hidden files
+#See hidden files
 ls -a
 
-naming the hidden files gitignore
+#naming the hidden files gitignore
 .<fileName>
 
-remove files from staging area
+#remove files from staging area
 git rm —cached -r .
 
-commit git
+#commit git
 git commit -m "Initial Commit"
 
-Identify yourself or login globally in vs code workspace
-git config --global user.email "rob2rhyme@gmail.com"
-git config --global user.name "Robin G. Thapa"
+#Identify yourself or login globally in vs code workspace
+git config --global user.email "email"
+git config --global user.name "name"
 
-install node Module
+#install node Module
 npm i
 
-Open gitignore file in terminal
+#Open gitignore file in terminal
 open -a /Applications/Visual\ Studio\ Code.app/ .gitignore
 
-add raw files link from gitignore
+#add raw files link from gitignore
 https://github.com/github/gitignore/blob/main/Node.gitignore 
 also add #Project-Wide
 .DS_Store
 
-install nodemon globally in sudo mode
+#install nodemon globally in sudo mode
 sudo npm install -g nodemon --save-dev
 
-create branch
+#create branch
 git branch <branch name>
 
-check branches
+#check branches
 git branch
 
-Switch to preferred branch
+#Switch to preferred branch
 git checkout <branch name>
 
-merge branch to main
-go back to main branch 
+#merge branch to main
+#go back to main branch 
 git checkout main
 git merge <branchname>
 
-to exit Vim
+#to exit Vim
 :q!
 
-now push to origin
+#now push to origin
 git push origin main -u
 
 
